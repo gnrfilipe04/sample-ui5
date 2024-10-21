@@ -1,0 +1,12 @@
+<mvc:View controllerName="myapp.controller.Details"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="details" title="{i18n>detailsTitle}">
+        <Button
+            id="detailsBackButton"
+            text="Go back"
+            press="goBack"
+        />
+    </Page>
+
+</mvc:View>
